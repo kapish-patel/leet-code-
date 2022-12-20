@@ -25,6 +25,7 @@ class Solution(object):
 
 
 def main():
+    print('217: Contains Duplicate - EASY')
     lst = [1, 5, 3, 7, 3, 8, 6, 4, 6, 2, 7, 9, 4, 5, 2, 5, 0]
     sol = Solution()
     answer = sol.contains_duplicate(lst)
